@@ -1,0 +1,21 @@
+{
+  "name": "bullshit-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "mysql": "^2.18.1",
+    "redis": "^3.1.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
