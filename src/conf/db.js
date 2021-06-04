@@ -17,16 +17,16 @@ if (env === 'development') {
   }
 } else {
   MYSQL_CONF = {
-    host: '172.19.0.2',
+    host: '172.20.0.2',
     user: 'root',
-    password: 'secret',
+    password: 'simple',
     port: '3306',
-    database: 'myblog',
+    database: 'bullshit',
   }
 
   REDIS_CONF = {
     port: 6379,
-    host: '172.19.0.5'
+    host: '172.20.0.3'
   }
 }
 
